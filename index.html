@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+	<title>Fogo do Doom</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/funcoes.js"></script>
+</head>
+<body onload="start()">
+
+	<center>
+
+		<h1>Doom Fire Effect</h1>
+
+		<div id="fireCanvas"></div>
+	
+		<div class="btn">
+			<button type="button" id="fireLow" onclick="decreaseFireIntensity()">-</button>
+			<button type="button" id="minFire"  onclick="deleteFireSource()">min fire</button>
+			<button type="button" id="maxFire"  onclick="createFireSource()">max fire</button>
+			<button type="button" id="fireHigh" onclick="increaseFireIntensity()">+</button>
+			<button type="button" id="debugChange"  onclick="debugChange()">Debug</button>
+		</div>
+	</center>
+
+</body>
+</html>
